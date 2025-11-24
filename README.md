@@ -1,8 +1,9 @@
 DESIGN GUIDELINES:
 <ol>
-<li></li>Every page will use the same header except for index.html which will be, like gpasshop, a big photo.</li>
-2) All pages will use the same footer when we get to it. 
-3) All code must be html or js unless approved by John beforehand. 4) All code must be severely documented, especially a section ot a function to assist in my understanding of it and also to easily and accurately locate code to be edited. 
+<li>Every page will use the same header except for index.html which will be, like gpasshop, a big photo.</li>
+<li>All pages will use the same footer when we get to it.</li> 
+<li>All code must be html or js unless approved by John beforehand. </li>
+<li>All code must be severely documented, especially a section ot a function to assist in my understanding of it and also to easily and accurately locate code to be edited.</li> 
 5) Primary build is for 1) tablet screen, 2) mobile phone screen, 3) desktop screen. 
 6) Default font size is always 16pt or 21px 
 Plain font will be lexend 
