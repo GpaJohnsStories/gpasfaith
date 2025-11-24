@@ -7,12 +7,12 @@ DESIGN GUIDELINES:
 <li>Primary build is for 1) tablet screen, 2) mobile phone screen, 3) desktop screen.</li> 
 <li>Default font size is always 16pt or 21px </li>
   <ul>
-<li>Plain font will be lexend </li>
-<li>Fun font will be kalam </li>
-<li>Text font will be Georgia </li>
-<li>Bible title font will be ???? -- we'll figure it out later </li>
-</li>
-    <li>This is a website for everyone from teens to older seniors, with no advertising and strict security policy. -- I am very concerned about the real possibility of porn hackers trying to get at my story base to insert porn into it or to read comments and give porn responses. So, let's implement all enhanced security and let me know if you find any holes or weaknesses of any kind. </li>
+  <li>Plain font will be lexend </li>
+  <li>Fun font will be kalam </li>
+  <li>Text font will be Georgia </li>
+  <li>Bible title font will be ???? -- we'll figure it out later </li>
+</ul>
+<li>This is a website for everyone from teens to older seniors, with no advertising and strict security policy. -- I am very concerned about the real possibility of porn hackers trying to get at my story base to insert porn into it or to read comments and give porn responses. So, let's implement all enhanced security and let me know if you find any holes or weaknesses of any kind. </li>
 <li>This is a website to help everyone "feel at home", comfortable, safe and NOT JUDGED. </li>
 <li>This website must be very easy for older people to navigate -- Ensure all buttons are large and easy for stiff fingers to click on smart phones, tablets or any other device with a touch screen. </li>
 <li>All images and content must be fully responsive for various screen sizes (tablets, phones) since children use a wide range of devices. 11) Ensure sufficient color contrast for readability for anyonr with visual impairments. </li>
