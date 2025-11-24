@@ -1,10 +1,10 @@
 DESIGN GUIDELINES:
-1) Every page will use the same header except for index.html which will be, like gpasshop, a big photo. |
+<ol>
+<li></li>Every page will use the same header except for index.html which will be, like gpasshop, a big photo.</li>
 2) All pages will use the same footer when we get to it. 
-*** All code must be html or js unless approved by John beforehand. 
-*** All code must be severely documented, especially a section ot a function to assist in my understanding of it and also to easily and accurately locate code to be edited. 
-Primary build is for 1) tablet screen, 2) mobile phone screen, 3) desktop screen. 
-Default font size is always 16pt or 21px 
+3) All code must be html or js unless approved by John beforehand. 4) All code must be severely documented, especially a section ot a function to assist in my understanding of it and also to easily and accurately locate code to be edited. 
+5) Primary build is for 1) tablet screen, 2) mobile phone screen, 3) desktop screen. 
+6) Default font size is always 16pt or 21px 
 Plain font will be lexend 
 Fun font will be kalam 
 Text font will be Georgia 
@@ -22,3 +22,4 @@ We will use a co-op approach to storage... faith-text -- stories, webtext, bio's
 Smaller Tables such as color presets will be stored as CoPilot recommends. 
 faith-index will be stored on supabase for faster searching, sorting, filtering.
 Error messaging - when things go wrong (404 pages, form errors), use gentle, encouraging language that maintains the "safe, not judged" atmosphere. Something like "Oops, that page went on vacation!" instead of harsh technical errors.
+</ol>
