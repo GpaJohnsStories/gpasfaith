@@ -1,3 +1,6 @@
+### **GENERAL RULES — Updated: 5/9/2026**
+
+
 # Each repo works with only one website...
   gpas-faith = GpasFaith.com  
   gpas-kids = GpasKids.com  
@@ -5,7 +8,7 @@
   
   All pages in gpas-admin repo will NEVER be published to the web and active code will only be used on Gpa John's personal PC.
 
-### **GENERAL RULES — Updated: 1/9/2026**
+
 ## **1) Public and Admin sites share no components**  
 Each site is fully independent. No cross‑site imports.
 
