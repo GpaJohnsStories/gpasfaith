@@ -213,7 +213,7 @@ However, accessibility code must be included for visually impaired users.
 
 # **SPECIFIC RULES FOR GPASFAITH.COM SITE**
 
-## **1) Each Category type (identified by first character of fileCat) will require a unique specific display/format code**
+## **A) Each Category type (identified by first character of fileCat) will require a unique specific display/format code**
 CoPilot, or any other helping AI, must not guess or invent display rules...
 Each category’s display format will be provided separately.
 
