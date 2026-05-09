@@ -18,7 +18,7 @@ Each public site (Faith, Kids, Shop) is fully independent. No cross‑site impor
 No external CSS, no TSX, no TS.  
 All styling must be done inside an inline `<style>` block in each HTML file.
 
-## **3b) All public pages must be fully built with Accessibility Features
+## **3b) All public pages must be fully built with Accessibility Features**
 - Resizable text
 - Keyboard navigation
 - Alternative text for images
@@ -199,6 +199,7 @@ However, accessibility code must be included for visually impaired users.
 
 ---
 
-# SPECIFIC RULES FOR GPASFAITH.COM SITE
+# **SPECIFIC RULES FOR GPASFAITH.COM SITE**
 
-## **1) Each Category type (identified by first character of fileCat) will require a unique specific display/format code
+## **1) Each Category type (identified by first character of fileCat) 
+will require a unique specific display/format code**
