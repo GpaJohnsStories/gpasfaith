@@ -1,26 +1,26 @@
-### **GENERAL RULES — Updated: 5/9/2026**
+# **GENERAL RULES — Updated: 5/9/2026**
 
-
-# Each repo works with only one website...
+## **1) Each repo works with only one website**
   gpas-faith = GpasFaith.com  
   gpas-kids = GpasKids.com  
   gpas-shop = GpasShop.com  
   
-  All pages in gpas-admin repo will NEVER be published to the web and active code will only be used on Gpa John's personal PC.
-
-
-## **1) Public and Admin sites share no components**  
-Each site is fully independent. No cross‑site imports.
+  *All pages in gpas-admin repo will NEVER be published to the web and active code will only be used on Gpa John's personal PC.*
 
 ---
 
-## **2) ALL CODE must be HTML or JavaScript only**  
+## **2) Public and Admin sites share no components**  
+Each public site (Faith, Kids, Shop) is fully independent. No cross‑site imports.
+
+---
+
+## **3) ALL CODE must be HTML or JavaScript only**  
 No external CSS, no TSX, no TS.  
 All styling must be done inside an inline `<style>` block in each HTML file.
 
 ---
 
-## **3) Shared Components MUST Be Loaded with `fetch()`**  
+## **4) Shared Components MUST Be Loaded with `fetch()`**  
 All shared UI components — public and admin — must be fetched into the page.
 
 ### **This includes:**
