@@ -14,9 +14,17 @@ Each public site (Faith, Kids, Shop) is fully independent. No cross‑site impor
 
 ---
 
-## **3) ALL CODE must be HTML or JavaScript only**  
+## **3a) ALL CODE must be HTML or JavaScript only**  
 No external CSS, no TSX, no TS.  
 All styling must be done inside an inline `<style>` block in each HTML file.
+
+## **3b) All public pages must be fully built with Accessibility Features
+- Resizable text
+- Keyboard navigation
+- Alternative text for images
+- Captions or transcripts for video
+- High Contrast option
+- Ensure compatibility with assistive technologies like screen readers
 
 ---
 
@@ -38,20 +46,13 @@ All shared UI components — public and admin — must be fetched into the page.
 
 Standard Screen Display Sizes…
 
-Screen Type
-Width Range
-Layout Behavior
-Tablet – Landscape and Desktops
-~1200px
-2–3 columns, partial desktop feel 
-Phone Portrait and Tablet Portrait
-≤ 480px 
-Single column, 300–310px cells stack vertically 
+- Tablet Landscape Mode and Desktops: ~1200px wide, 2–3 columns, partial desktop feel 
+- Phone and Tablet Portrait Mode: ≤ 480px, Single column, 300–310px cells stack vertically 
 
-Build code for faith, kids and shop to tablet landscape mode.
-Build code for all admin pages ONLY for desktop/laptop screens
+Build code initially for faith, kids and shop to tablet landscape mode. Phone and portrait modes will be handled later...
+Build code for all admin pages ONLY for desktop/laptop screens...
 
-## **4) ALL Story PDFs Must Be Displayed Using an `<iframe>`**  
+## **5) ALL Story PDFs Must Be Displayed Using an `<iframe>`**  
 Story files are documents, not HTML components.
 
 ### **Visitors must be able to:**
@@ -73,17 +74,17 @@ All of this is built into the browser’s PDF viewer.
 
 ---
 
-## **5) Story cards and product cards are site‑specific**  
+## **6) Story cards and product cards are site‑specific**  
 They are not shared across sites.
 
 ---
 
-## **6) Frequently used pages may use hard‑coded text**  
+## **7) Frequently used pages may use hard‑coded text**  
 This improves performance and reduces fetch calls.
 
 ---
 
-## **7) Reusable Sections Must Be Standalone Files**  
+## **8) Reusable Sections Must Be Standalone Files**  
 Any component used on multiple pages must be its own HTML file and loaded via fetch.
 
 ### **Examples:**
@@ -94,7 +95,7 @@ Any component used on multiple pages must be its own HTML file and loaded via fe
 
 ---
 
-## **8) Standard HTML File Structure (Required Order)**  
+## **9) Standard HTML File Structure (Required Order)**  
 Every recreated page must follow this exact structure:
 
 1. `<head></head>`  
@@ -106,7 +107,7 @@ This ensures consistency, readability, and long‑term maintainability.
 
 ---
 
-## **9) Every HTML File Must Be HEAVILY Documented**  
+## **10) Every HTML File Must Be HEAVILY Documented**  
 Use clear, descriptive comments to explain:
 
 - What each function does  
@@ -120,26 +121,23 @@ This is essential for helpers and future maintainers.
 
 ---
 
-## **10) Recreated pages must match the original TSX design**  
+## **11) IF Recreating pages from TSX, they must match the original TSX design**  
 Colors, layout, spacing, and UI behavior must match the original site.
 
 ---
 
-## **11) All webtext and stories will be stored in GitHub repos**  
+## **12) All webtext and stories will be stored in GitHub repos**  
 API keys and directory structure will be provided when needed.
 
 ---
 
-## **12) Supabase story table is retained for indexing only**  
-Once all content is migrated to GitHub:
-
-- The `content` field will be deleted  
-- Other Supabase tables may be migrated, kept, or hard‑coded  
-- Decisions will be made page‑by‑page by Grandpa John
+## **13) All indexing will be done by a json index file, one for each site**  
+All previous content on SupaBase has been moved to github for storage. 
+Each file must be reformatted to either pdf or html format or deleted if no longer needed.
 
 ---
 
-## **13) Only four fonts may be used across all GPAS sites**  
+## **14) Only four fonts may be used across all GPAS sites**  
 - **Kalam** — fun  
 - **Lexend** — titles  
 - **Georgia** — stories  
@@ -147,18 +145,20 @@ Once all content is migrated to GitHub:
 
 ---
 
-## **14) ALL Story Files Must Be Reformatted and Migrated to PDF**  
+## **15) ALL existing Story files will Be Reformatted and Migrated to PDF**  
 Grandpa John will:
 
 - Reformat stories in Google Docs
 - Embed photos  
 - Set fonts, titles, paragraphs  
 - Export as print‑ready PDF  
-- Upload to GitHub using the 7‑digit story code
+- Upload to GitHub using the 8‑digit story code = ?-nnn.bbb 
+where ? = first character of category, nnn = sequential, unique number for that first character 
+and bbb = file extension: html, pdf, url, mp3, mp4
 
 ---
 
-## **15) ALL Non‑Hardcoded Webtext Must Be Migrated to HTML Files**  
+## **16) ALL Non‑Hardcoded Webtext Will Be Migrated to HTML Files**  
 Using a new admin tool based on super‑text:
 
 - Clean HTML only  
@@ -167,7 +167,7 @@ Using a new admin tool based on super‑text:
 
 ---
 
-## **16) No “inline junk” allowed**  
+## **17) No “inline junk” allowed**  
 - No nested spans  
 - No mystery classes  
 - No hidden scripts  
@@ -177,31 +177,28 @@ Clean HTML only.
 
 ---
 
-## **17) Icons must be stored in GitHub, not Supabase**  
+## **18) Icons must be stored in GitHub Repo in "Icons" directory**  
 Each site gets its own icon directories:
 
-- `/site-code/icons-core/`  
-- `/site-code/icons-other/`  
+- `/site-code/icons/`  
 
-All filenames must begin with `ICO`.  
+All Icon Filenames must begin with `ICO`.  
 If an icon is used on multiple sites, it must exist separately in each site’s repo.
 
 ---
 
-## **18) Buttons and labels must follow GPAS style**  
-- Buttons: 3D, pill‑shaped, rounded ends  
+## **19) Buttons and labels on public pages must follow GPAS style**  
+- Buttons: 3D, pill‑shaped, rounded ends, minimum size 55px x 55px
 - Labels: 3D, square/rectangular with slightly rounded corners  
 - No hover effects (primary devices are tablets/phones)
 
 ---
 
-## **19) No tooltips for photos or icons**  
+## **20) No tooltips for photos or icons**  
 However, accessibility code must be included for visually impaired users.
 
 ---
 
-## **20) GPASKIDS‑Specific Rules**  
-1. Recreate the gpaskids title/menu bar → `kids-menu-header.html`  
-2. Recreate the gpaskids footer → `kids-footer.html`  
-3. Recreate the home page → `kids-home.html`  
-4. Replace all webtext with hard‑coded text (except story cards)
+# SPECIFIC RULES FOR GPASFAITH.COM SITE
+
+## **1) Each Category type (identified by first character of fileCat) will require a unique specific display/format code
