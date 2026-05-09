@@ -201,5 +201,4 @@ However, accessibility code must be included for visually impaired users.
 
 # **SPECIFIC RULES FOR GPASFAITH.COM SITE**
 
-## **1) Each Category type (identified by first character of fileCat) 
-will require a unique specific display/format code**
+## **1) Each Category type (identified by first character of fileCat) will require a unique specific display/format code**
