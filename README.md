@@ -205,9 +205,15 @@ However, accessibility code must be included for visually impaired users.
 
 ---
 
+## **22) Bad Words Check**
+- All text input fields, public or admin, unless they are created with a dropdown list, MUST be reviewed against the BadWords List...
+- This includes search terms and phrases entered by site visitors.
+
+---
+
 # **SPECIFIC RULES FOR GPASFAITH.COM SITE**
 
-## **) Each Category type (identified by first character of fileCat) will require a unique specific display/format code**
+## **1) Each Category type (identified by first character of fileCat) will require a unique specific display/format code**
 CoPilot, or any other helping AI, must not guess or invent display rules...
 Each category’s display format will be provided separately.
 
