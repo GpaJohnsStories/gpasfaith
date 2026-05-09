@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>GPAS Shop — New 1-Box Shop Index -- 02/07 -- 7-44-PM</title>
+</head>
+
+<body
+  style="
+    margin:0;
+    font-family:Lexend, Arial, sans-serif;
+    background-image:url('photos/linen-background.jpg');
+    background-repeat:repeat;
+    background-position:center;
+    color:#222;
+  "
+>
+
+  <!-- Top breathing room above the wall -->
+    <div style="height:12px;"></div>
+  
+<!--
+  OUTER WRAPPER
+  -------------
+  This div spans the full browser width.
+  Its only job is to allow horizontal scrolling
+  if the screen is narrower than the fixed table.
+-->
+<div
+  style="
+    width:100%;
+    overflow-x:auto;
+  "
+>
+
+  <!--
+    CENTERING FRAME
+    ----------------
+    This div defines the exact desktop width of the wall.
+    It centers the table on wide screens and prevents
+    the browser from squeezing columns on narrow screens.
+  -->
+  <div
+    style="
+      width:1240px;
+      margin:0 auto;
+    "
+  >
+
+    <!--
+      THE TABLE ITSELF
+      ----------------
+      The table remains rigid and architectural.
+      Column widths and row heights are fixed inside.
+      No responsiveness happens here.
+    -->
+ <table
+  cellspacing="0"
+  cellpadding="0"
+  style="
+    width:1240px;
+    table-layout:fixed;
+    border-collapse:collapse;
+    border:0;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:10px;
+  "
+>
+
+<!-- Row 0 -- Dummy Row to set widths so real row 1 can use colspan -->
+<tr style="height:0;">
+  <td style="width:150px;padding:0;border:0;"></td>
+  <td style="width:4px;padding:0;border:0;"></td>
+  <td style="width:150px;padding:0;border:0;"></td>
+  <td style="width:4px;padding:0;border:0;"></td>
+  <td style="width:150px;padding:0;border:0;"></td>
+  <td style="width:4px;padding:0;border:0;"></td>
+  <td style="width:150px;padding:0;border:0;"></td>
+  <td style="width:4px;padding:0;border:0;"></td>
+  <td style="width:150px;padding:0;border:0;"></td>
+  <td style="width:4px;padding:0;border:0;"></td>
+  <td style="width:150px;padding:0;border:0;"></td>
+  <td style="width:4px;padding:0;border:0;"></td>
+  <td style="width:300px;padding:0;border:0;"></td>
+</tr>
+
+  
+  <!-- ROW 1 : Welcome row — defines ALL column widths -->
+<tr>
+<!-- GROUP 1 : Columns 1–3 — cork board (Special Product) -->
+<td
+  colspan="3"
+  id="table1-col1-featured"
+  title="Featured Product"
+  style="
+    height:300px;
+    padding-top:7px;
+    position:relative; /* establishes stacking context */
+    background-image:url('photos/gpas-shop-cork-board.png');
+    background-size:300px 300px;
+    background-position:center;
+    background-repeat:no-repeat;
+    box-sizing:border-box;
+    vertical-align:top;
+    text-align:center;
+  "
+>
+
+  <!-- ========================================================= -->
+  <!-- FEATURED PRODUCT                                          -->
+  <!-- Change ONLY the product code below to feature a new item -->
+  <!-- Current featured product: HTK-001                         -->
+  <!-- Source: gpas-shop / prod / HTK-001.html                   -->
+  <!-- ========================================================= -->
+
+  <div style="position:relative; display:inline-block; max-width:300px;">
+    
+    <!-- PUSH PIN — sits at top of the photo -->
+    <img
+      src="icons/shop-pushpin-orange-25h.png"
+      alt=""
+      style="
+        position:absolute;
+        top:4px;                 /* 8px below top of photo */
+        left:50%;
+        transform:translateX(-50%);
+        z-index:2;               /* ABOVE photo */
+        pointer-events:none;
+      "
+    >
+
+    <!-- FEATURED PHOTO (card) -->
+    <img
+      src="p-photos/FBF-004-290.jpg"
+      alt="FBF-004-290"
+      style="
+        position:relative;
+        z-index:1;               /* BELOW pin */
+      "
+    >
+  </div>
+</td>
+
+  <!-- COLUMN 4 : Vertical spacer -->
+  <td></td>
+
+  <!-- GROUP 2 : Columns 5–7 — Shop Photo -->
+  <td colspan="3"
+      style="
+        height:300px;
+
+        /* shop photo fits exactly */
+        background-image:url('photos/gpas-shop-web.png');
+        background-size:300px 300px;
+        background-position:center;
+        background-repeat:no-repeat;
+
+        border:0 solid #666;
+      ">
+  </td>
+
+  <!-- COLUMN 8 : Vertical spacer -->
+  <td></td>
+
+  <!-- GROUP 3 : Columns 9–11 — Blackboard (Welcome / Notes) -->
+  <td colspan="3"
+      style="
+        height:300px;
+
+        /* full framed blackboard fits exactly */
+        background-image:url('photos/shop-blackboard.png');
+        background-size:300px 300px;
+        background-position:center;
+        background-repeat:no-repeat;
+
+        box-sizing:border-box;
+        padding:25px;
+
+        font-family:Kalam,'Comic Sans MS',cursive;
+        font-size:21px;
+        font-weight:500;
+        line-height:1.20;
+        color:#ffffff;
+
+        border:0 solid #666;
+      ">
+      <!-- Welcome text goes here. Example: -->
+  Hello Friend,<br><br>
+  <div style="font-size:21px; font-weight:500;">
+  Thanks for stopping by. Everything here is stuff I'd mention to you if we were just talking over the back fence. Have fun and check it out.<br><br>
+    <center>Grandpa John</center>
+  </div>
+  </td>
+
+  <!-- COLUMN 12 : Vertical spacer -->
+  <td></td>
+
+ <!-- COLUMN 13 : Display window (spans rows 1–7) -->
+<td rowspan="7"
+    style="
+      border:0px solid #666;
+      padding:0;
+      vertical-align:top;
+    ">
+
+  <div
+    style="
+      width:300px;
+      height:100%;
+      box-sizing:border-box;
+      position:relative;    /* <-- ensure this wrapper is the positioning context */
+      overflow:hidden;      /* optional: keep content contained */
+    "
+  >
+    <img
+      src="photos/gpas-shop-cork-board.png"
+      alt="Display cork board"
+      style="
+        width:100%;
+        height:100%;
+        object-fit:contain;
+        display:block;
+      "
+    >
+
+<!-- PUSH PIN — now positioned relative to the wrapper above -->
+    <img
+      src="icons/shop-pushpin-orange-25h.png"
+      alt=""
+      style="
+        position:absolute;
+        top:4px;                 /* Distance from top of wrapper */
+        left:50%;
+        transform:translateX(-50%);
+        z-index:3;               /* ABOVE photo */
+        pointer-events:none;
+      "
+    >
+  </div>
+</td>
+</tr>
+
+  <!-- ROW 2 : Spacer (4px) -->
+  <tr>
+    <td colspan="12" style="height:4px"></td>
+  </tr>
+
+  <!-- ROW 3 : Instruction row (300px) -->
+  <tr>
+  <!-- GROUP 1 : Columns 1–3 — Instruction Blackboard -->
+  <td colspan="3"
+      style="
+        height:300px;
+
+        /* full framed blackboard fits exactly */
+        background-image:url('photos/shop-blackboard.png');
+        background-size:300px 300px;
+        background-position:center;
+        background-repeat:no-repeat;
+
+        box-sizing:border-box;
+        padding:25px;
+
+        font-family:Kalam,'Comic Sans MS',cursive;
+        font-size:21px;
+        font-weight:500;
+        line-height:1.20;
+        color:#ffffff;
+      ">
+    <center></center>How to Search</center>
+    <div style="height:12px;"></div>
+    Choose a book, then click the snapshot below.
+  </td>
+
+  <!-- COLUMN 3 : Vertical spacer -->
+  <td></td>
+
+ <!-- GROUP 2 : Columns 4–6 — Instruction Blackboard -->
+  <td colspan="3"
+      style="
+        background-image:url('photos/shop-blackboard.png');
+        background-size:300px 300px;
+        background-position:center;
+        background-repeat:no-repeat;
+
+        box-sizing:border-box;
+        padding:25px;
+
+        font-family:Kalam,'Comic Sans MS',cursive;
+        font-size:21px;
+        font-weight:400;
+        line-height:1.25;
+        color:#ffffff;
+      ">
+    <center>How to Filter</center>
+    <div style="height:12px;"></div>
+    <center>by Author, Title & More</center>.
+  </td>
+
+  <!-- COLUMN 8 : Vertical spacer -->
+  <td></td>
+
+  <!-- GROUP 3 : Columns 9–11 — Instruction Blackboard -->
+  <td colspan="3"
+      style="
+        background-image:url('photos/shop-blackboard.png');
+        background-size:300px 300px;
+        background-position:center;
+        background-repeat:no-repeat;
+
+        box-sizing:border-box;
+        padding:25px;
+
+        font-family:Kalam,'Comic Sans MS',cursive;
+        font-size:21px;
+        font-weight:400;
+        line-height:1.25;
+        color:#ffffff;
+      ">
+    New items appear often
+    <div style="height:12px;"></div>
+    Check back anytime.
+  </td>
+
+  <!-- COLUMN 12 : Vertical spacer -->
+  <td></td>
+</tr>
+
+
+  <!-- ROW 4 : Spacer (4px) -->
+  <tr>
+    <td colspan="12" style="height:4px;"></td>
+    <td></td>
+  </tr>
+
+  <!-- ROW 5 : Thumbnail catalog top (150px) -->
+  <tr>
+    <td style="height:150px;border:0px solid #666;"></td>
+    <td style="border:0px solid #666;"></td>
+    <td style="border:0px solid #666;"></td>
+    <td style="border:0px solid #666;"></td>
+    <td style="border:0px solid #666;"></td>
+    <td style="border:0px solid #666;"></td>
+    <td style="border:0px solid #666;"></td>
+    <td style="border:0px solid #666;"></td>
+    <td style="border:0px solid #666;"></td>
+    <td style="border:0px solid #666;"></td>
+    <td style="border:0px solid #666;"></td>
+    <td style="border:0px solid #666;"></td>
+  </tr>
+
+  <!-- ROW 6 : Wood Shelf Spacer (4px) -->
+ <tr>
+<td colspan="12"
+    style="
+      height:12px;
+      background-image:url('photos/wood-board.gif');
+      background-size:100% 100%;
+      background-position:center;
+      background-repeat:no-repeat;
+      border:0;
+    ">
+  </td>
+</tr>
+
+
+  <!-- ROW 7 : Thumbnail catalog bottom (150px) -->
+  <tr>
+    <td style="height:150px;border:0px solid #666;"></td>
+    <td style="border:0px solid #666;"></td>
+    <td style="border:0px solid #666;"></td>
+    <td style="border:0px solid #666;"></td>
+    <td style="border:0px solid #666;"></td>
+    <td style="border:0px solid #666;"></td>
+    <td style="border:0px solid #666;"></td>
+    <td style="border:0px solid #666;"></td>
+    <td style="border:0px solid #666;"></td>
+    <td style="border:0px solid #666;"></td>
+    <td style="border:0px solid #666;"></td>
+    <td style="border:0px solid #666;"></td>
+  </tr>
+
+  <!-- ROW 8 : Bottom Shelf - spacer (4px) -->
+<tr>
+  <td colspan="12"
+    style="
+      height:12px;
+      background-image:url('photos/wood-board.gif');
+      background-size:100% 100%;
+      background-position:center;
+      background-repeat:no-repeat;
+      border:0;
+    ">
+  </td>
+</tr>
+</table>
+
+  </div>
+</div>
+  
+<!-- Spacer between table and footer board -->
+<div style="height:6px;"></div>
+
+<!-- Footer wrapper: matches table centering and width -->
+<div style="width:100%; overflow-x:auto;">
+  <div style="width:1240px; margin:0 auto;">
+    <iframe
+      src="https://gpajohnsstories.github.io/gpas-common/pages/gpas-footer.html"
+      style="
+        width:1240px;
+        height:90px;
+        border:0;
+        display:block;
+        overflow:hidden;
+      "
+      loading="lazy"
+      title="Gpa's Page Footer"
+    ></iframe>
+  </div>
+</div>
+
+</body>
+</html>
